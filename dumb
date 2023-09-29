@@ -1,0 +1,61 @@
+<div className="row g-0 my-2 w-100">
+                {/* <div className="col-md-1 d-flex ">
+                <div style={{backgroundColor: "orange", padding:"30px"}}></div>
+            </div> */}
+                <div className="col-md-4 align-items-center p-2">
+                  <img
+                    src="/cbc_logo_large.png"
+                    className="rounded-start img-fluid d-none d-lg-block"
+                    alt="..."
+                    // height={"200px"}
+                  />
+                </div>
+                <div className="col-md-8 cbody rounded">
+                  <div className="card-body">
+                    <div className="col-md-12">
+                      <div className="form-floating">
+                        <input
+                          type="email"
+                          className="form-control"
+                          id="floatingInputGrid"
+                          placeholder="name@example.com"
+                          name="email"
+                          // value={value.email}
+                          // onChange={(e) => {
+                          //   handleChange(e);
+                          // }}
+                        />
+                        <label htmlFor="floatingInputGrid">Email address</label>
+                      </div>
+                    </div>
+                    <div className="col-md-12 my-2">
+                      <div className="form-floating">
+                        <input
+                          type="password"
+                          className="form-control"
+                          id="floatingInputGrid"
+                          placeholder="password"
+                          // onChange={(e) => {
+                          //   handleChange(e);
+                          // }}
+                          name="password"
+                          // value={value.password}
+                        />
+                        <label htmlFor="floatingInputGrid">Password</label>
+                      </div>
+                    </div>
+                    <div className="col-md-12 my-2 text-center">
+                      <div>
+                        <button
+                          className="btn btn-outline-primary w-100"
+                          // onClick={() => {
+                          //   handleClick();
+                          // }}
+                        >
+                          Log In
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>

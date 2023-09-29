@@ -1,87 +1,67 @@
-import React from 'react'
+import React from "react";
 import "./App.css";
-import Footer from './components/Footer';
+import Footer from "./components/Footer";
+import Extra from "./components/Extra";
 
 function App() {
-  
   return (
     <>
-      <div className="container m-2">
-        <h2 className="text-primary text-center">
-          National Standards for Civil Service Training Institutions
+      <div className="my-3">
+        <h2 className="text-center" style={{ color: "#1f3c90" }}>
+          Annual Capacity Building Plans (ACBPs)
         </h2>
-        <div className="d-flex my-2">
-          <div className="row mx-auto">
-            <div
-              // style={{width:'50vw'}}
-              className="card  d-flex flex-row align-items-center w-100 w-md-50"
-            >
-              <div className="row g-0 my-2 w-100">
-                {/* <div className="col-md-1 d-flex ">
-                <div style={{backgroundColor: "orange", padding:"30px"}}></div>
-            </div> */}
-                <div className="col-md-4 align-items-center p-2">
-                  <img
-                    src="/cbc_logo_large.png"
-                    className="rounded-start img-fluid"
-                    alt="..."
-                    // height={"200px"}
-                  />
-                </div>
-                <div className="col-md-8 cbody rounded">
-                  <div className="card-body">
-                    <div className="col-md-12">
-                      <div className="form-floating">
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="floatingInputGrid"
-                          placeholder="name@example.com"
-                          name="email"
-                          // value={value.email}
-                          // onChange={(e) => {
-                          //   handleChange(e);
-                          // }}
-                        />
-                        <label htmlFor="floatingInputGrid">Email address</label>
-                      </div>
+        <div className="d-flex">
+          <div className="me-4 rounded-end-2">
+            <img src="/left_curve.png" alt="..." className="img-fluid" />
+          </div>
+          <div className="text-center my-auto">
+            <img src="/cbc_logo_large.png" alt="..." className="w-50" />
+          </div>
+          <div className="flex-fill justify-content-between d-none d-lg-block text-bg-primary border border-3 rounded-start-4 ps-4">
+            <div className="d-flex mx-3 my-3">
+              <div className="row cbody w-50 rounded-2">
+                <div className="card-body">
+                  <div className="">
+                    <div className="form-floating">
+                      <input
+                        type="email"
+                        name="email"
+                        className="form-control"
+                        id="floatingInputGrid"
+                        // placeholder="name@example.com"
+                      />
+                      <label htmlFor="floatingInputGrid">Email Address</label>
                     </div>
-                    <div className="col-md-12 my-2">
-                      <div className="form-floating">
-                        <input
-                          type="password"
-                          className="form-control"
-                          id="floatingInputGrid"
-                          placeholder="password"
-                          // onChange={(e) => {
-                          //   handleChange(e);
-                          // }}
-                          name="password"
-                          // value={value.password}
-                        />
-                        <label htmlFor="floatingInputGrid">Password</label>
-                      </div>
+                  </div>
+                  <div className="col-md-12 my-2">
+                    <div className="form-floating">
+                      <input
+                        type="password"
+                        name="password"
+                        className="form-control"
+                        // placeholder="Password"
+                        id="floatingInputGrid"
+                      />
+                      <label htmlFor="floatingInputGrid">Password</label>
                     </div>
-                    <div className="col-md-12 my-2 text-center">
-                      <div>
-                        <button
-                          className="btn btn-outline-primary w-100"
-                          // onClick={() => {
-                          //   handleClick();
-                          // }}
-                        >
-                          Log In
-                        </button>
-                      </div>
-                    </div>
+                  </div>
+                  <div className="col-md-12 my-2 text-center">
+                    <button className="btn btn-outline-primary w-100">
+                      Log In
+                    </button>
                   </div>
                 </div>
               </div>
+              {/* <div className="float-right">
+                <img src="/modi_ji.png" alt="" className="col-md-4" />
+              </div> */}
             </div>
+            
           </div>
         </div>
+        <Extra/>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
