@@ -22,27 +22,41 @@ const Footer = () => {
 
       <!--Grid column--> */}
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-
-            <ul className="list-unstyled mb-0">
+            <h5 className="text-uppercase">Quick Link</h5>
+            <ul className="list-unstyled mb-0 ">
               <li>
-                <a href="#!" className="text-white">
-                  Link 1
+                <a href="https://cbc.gov.in/" className="text-white text-decoration-none">
+                  Home
                 </a>
               </li>
               <li>
-                <a href="#!" className="text-white">
-                  Link 2
+                <a href="https://cbc.gov.in/mission-karmayogi" className="text-white text-decoration-none">
+                Mission Karmayogi
                 </a>
               </li>
               <li>
-                <a href="#!" className="text-white">
-                  Link 3
+                <a href="https://cbc.gov.in/acbp" className="text-white text-decoration-none">
+                  Abmt CBC
                 </a>
               </li>
               <li>
-                <a href="#!" className="text-white">
-                  Link 4
+                <a href="https://cbc.gov.in/mandate-of-the-commission" className="text-white text-decoration-none">
+                  CBC Mandate
+                </a>
+              </li>
+              <li>
+                <a href="https://cbc.gov.in/sites/default/files/ACBP_Approach-Paper.pdf" className="text-white text-decoration-none">
+                  Approach Paper
+                </a>
+              </li>
+              <li>
+                <a href="https://cbc.gov.in/karmayogi-bharat" className="text-white text-decoration-none">
+                  IGOT 
+                </a>
+              </li>
+              <li>
+                <a href="https://cbc.gov.in/contact-us" className="text-white text-decoration-none">
+                  Contact us
                 </a>
               </li>
             </ul>
@@ -51,7 +65,7 @@ const Footer = () => {
 
       <!--Grid column--> */}
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase mb-0">Links</h5>
+            {/* <h5 className="text-uppercase mb-0">Links</h5>
 
             <ul className="list-unstyled">
               <li>
@@ -74,7 +88,7 @@ const Footer = () => {
                   Link 4
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           {/* <!--Grid column--> */}
         </div>
