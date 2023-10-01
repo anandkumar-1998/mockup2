@@ -35,7 +35,7 @@ const Extra = () => {
         <div className="container">
           <div className="row ">
             <div className="col my-5">
-              <h3 className="text-decoration-underline text-center mb-2">
+              <h3 className="text-decoration-underline text-center mb-2" style={{color:"orange"}}>
                 Capacity Building Units(CBU)
               </h3>
             </div>
