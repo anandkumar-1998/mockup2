@@ -30,13 +30,8 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://cbc.gov.in/mission-karmayogi" className="text-white text-decoration-none">
-                Mission Karmayogi
-                </a>
-              </li>
-              <li>
                 <a href="https://cbc.gov.in/acbp" className="text-white text-decoration-none">
-                  Abmt CBC
+                  About CBC
                 </a>
               </li>
               <li>
@@ -45,12 +40,17 @@ const Footer = () => {
                 </a>
               </li>
               <li>
+                <a href="https://dopttrg.nic.in/igotmk/" className="text-white text-decoration-none">
+                Mission Karmayogi
+                </a>
+              </li>
+              <li>
                 <a href="https://cbc.gov.in/sites/default/files/ACBP_Approach-Paper.pdf" className="text-white text-decoration-none">
                   Approach Paper
                 </a>
               </li>
               <li>
-                <a href="https://cbc.gov.in/karmayogi-bharat" className="text-white text-decoration-none">
+                <a href="https://igotkarmayogi.gov.in/" className="text-white text-decoration-none">
                   IGOT 
                 </a>
               </li>
