@@ -3,7 +3,7 @@ import "./Extra.css";
 const Extra = () => {
   return (
     <>
-      <div className="container">
+      <div className="container m-5 text-center">
         <div
           className="pe-3 my-2 text-center border rounded-2"
           style={{ backgroundColor: "#fff7ed" }}

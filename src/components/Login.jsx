@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="">
+    <div className="container-fluid">
       <div className="my-3">
         <h2 className="text-center fs-1 p-lg-4" style={{ color: "#1f3c90" }}>
           ACBP Implementation Dashboard
@@ -32,7 +32,7 @@ const Login = () => {
               className="w-50 d-lg-none"
             />
           </div>
-          <div className="row w-100 align-items-center cbody2 py-md-3">
+          <div className="row w-75 align-items-center cbody2 py-md-3">
             <div className="col-md-6 col-sm-6 mx-3 cbody p-lg-4 p-sm-3 d-none d-sm-block">
               <div className="mb-3">
                 <input
