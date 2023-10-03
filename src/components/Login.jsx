@@ -50,15 +50,11 @@ const Login = () => {
                   placeholder="password"
                 />
               </div>
-              <div className="d-flex justify-content-between pb-2">
-                <div>
-                  <span>forget password</span>
-                </div>
-                <div>
-                  <span>contact us</span>
-                </div>
+              <span className="pt-3 pb-3 mb-3">Forget Password</span>
+              <button className="w-100 btn btn-outline-primary pt-2">Log In</button>
+              <div className="text-center mt-2 mb-2">
+                <p>In case of any trouble <span className="">contact us</span></p>
               </div>
-              <button className="w-100 btn btn-outline-primary">Log In</button>
             </div>
             <div className="d-none col d-lg-block"></div>
             <div className="col-lg-3 col-md-4 col-sm-5 d-none d-lg-block d-sm-block pt-2">

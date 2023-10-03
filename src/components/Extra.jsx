@@ -20,22 +20,22 @@ const Extra = () => {
           <img className="img-fluid" src="cbc-tracker_2.jpg" />
         </p>
       </div>
-      <div className="container-fluid" style={{ backgroundColor: "#f3f3f3" }}>
+      <div className="container-fluid text-center" style={{ backgroundColor: "#f3f3f3" }}>
         <div className="container text-center">
           <p
-            className="fs-2 py-3"
-            style={{ color: "#ff8b11" }}
+            className="fs-2 pt-3"
+            style={{ color: "#ff8b11", fontWeight:"bolder", borderBottom:"3px solid orange",  display: "inline-block" }}
           >
             Our Approach
           </p>
-          <img className="img-fluid " src="/approach.jpg" alt="" />
         </div>
+          <img className="img-fluid " src="/approach.jpg" alt="" />
       </div>
-      <div className="container-fluid">
+      <div className="container-fluid p-4">
         <div className="container">
           <div className="row ">
-            <div className="col my-5">
-              <h3 className="text-center mb-2" style={{color:"orange"}}>
+            <div className="col my-5 text-center">
+              <h3 className="mb-2" style={{color:"orange", fontWeight:"bolder", borderBottom:"3px solid orange",  display: "inline-block"}}>
                 Capacity Building Units(CBU)
               </h3>
             </div>
@@ -45,8 +45,8 @@ const Extra = () => {
             </p>
           </div>
           <h6
-            className="text-center fw-bold mb-3 mt-3"
-            style={{ color: "#08207c" }}
+            className="text-center mb-3 mt-3"
+            style={{ color: "#08207c", fontWeight:'bolder',fontSize:"20px" }}
           >
             FUNCTIONS OF CAPACITY BUILDING UNIT AT DEPARTMENTS
           </h6>
