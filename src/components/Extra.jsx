@@ -23,7 +23,7 @@ const Extra = () => {
       <div className="container-fluid" style={{ backgroundColor: "#f3f3f3" }}>
         <div className="container text-center">
           <p
-            className="fs-2 py-3 text-decoration-underline"
+            className="fs-2 py-3"
             style={{ color: "#ff8b11" }}
           >
             Our Approach
@@ -35,7 +35,7 @@ const Extra = () => {
         <div className="container">
           <div className="row ">
             <div className="col my-5">
-              <h3 className="text-decoration-underline text-center mb-2" style={{color:"orange"}}>
+              <h3 className="text-center mb-2" style={{color:"orange"}}>
                 Capacity Building Units(CBU)
               </h3>
             </div>

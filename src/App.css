@@ -6,7 +6,8 @@
   border-radius: 20px 20px 20px 20px;
 }
 .cbody2{
-  background-color: darkblue;
-  border: 4px soild darkblue;
+  background-color: 	#000080;
+  border: 4px soild 	#000080;
   border-radius: 40px 0px 0px 0px;
+  box-shadow: 10px 10px 10px #000;
 }

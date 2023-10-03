@@ -4,19 +4,35 @@ const Login = () => {
   return (
     <div className="">
       <div className="my-3">
-        <h2 className="text-center fs-1 p-lg-4" style={{ color: "#1f3c90"}}>
-          Annual Capacity Building Plans (ACBPs)
+        <h2 className="text-center fs-1 p-lg-4" style={{ color: "#1f3c90" }}>
+          ACBP Implementation Dashboard
         </h2>
         <div className="d-flex align-items-center">
           <div className="me-2 rounded-end-2">
-            <img src="/left_curve.png" alt="..." className="d-none d-lg-block" />
-            <img src="/left_curve.png" alt="..." className="img-fluid d-lg-none" />
+            <img
+              src="/left_curve.png"
+              alt="..."
+              className="d-none d-lg-block"
+            />
+            <img
+              src="/left_curve.png"
+              alt="..."
+              className="img-fluid d-lg-none"
+            />
           </div>
           <div className="text-center my-auto px-lg-5">
-            <img src="/cbc_logo_large.png" alt="..." className="w-75 d-none d-lg-block" />
-            <img src="/cbc_logo_large.png" alt="..." className="w-50 d-lg-none" />
+            <img
+              src="/cbc_logo_large.png"
+              alt="..."
+              className="w-75 d-none d-lg-block"
+            />
+            <img
+              src="/cbc_logo_large.png"
+              alt="..."
+              className="w-50 d-lg-none"
+            />
           </div>
-          <div className="row w-100 align-items-center shadow-lg cbody2 py-md-3">
+          <div className="row w-100 align-items-center cbody2 py-md-3">
             <div className="col-md-6 col-sm-6 mx-3 cbody p-lg-4 p-sm-3 d-none d-sm-block">
               <div className="mb-3">
                 <input
@@ -33,6 +49,14 @@ const Login = () => {
                   id="exampleFormControlInput1"
                   placeholder="password"
                 />
+              </div>
+              <div className="d-flex justify-content-between pb-2">
+                <div>
+                  <span>forget password</span>
+                </div>
+                <div>
+                  <span>contact us</span>
+                </div>
               </div>
               <button className="w-100 btn btn-outline-primary">Log In</button>
             </div>
